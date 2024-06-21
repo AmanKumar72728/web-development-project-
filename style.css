@@ -1,0 +1,359 @@
+
+/* header part */
+#firstimage{
+  height:80px;
+  width:80px;
+ padding-top: 20px;
+ margin-bottom:80px;
+}
+#punjabiheader{
+  font-size: 23px;
+  color:rgb(13, 4, 178);
+ 
+}
+
+
+#secondheader {
+  text-align:left;
+  color:rgb(252, 18, 18);
+  padding-top: 20px;
+  display:flexbox;
+  display: inline;
+  margin-left:65px;
+  font-family:Arial;
+  
+  
+}
+
+
+#thirdheader{
+  text-align:left;   
+  color:rgb(13, 4, 178);
+  display:flexbox;
+  margin-left:400px;
+  margin-top:5px;
+  margin-bottom:30px;
+}
+
+#div1{
+  margin-top:-75px;
+  margin-left:20px;
+}
+
+
+
+a{
+  margin-right:121px;   
+  color:white;
+  text-decoration: none;
+  font-family:arial;
+
+  
+  
+}
+  
+
+
+
+#div2{
+  display:flex;
+  justify-content:space-evenly;
+  background-color:rgb(13, 4, 178);
+
+  
+}
+#image2{
+  margin-top:10px;
+}
+
+
+#counselling{
+  margin-top:10px;
+  display:flex;
+}
+
+#link1{
+
+background-color:rgb(255, 235, 13);
+height:40px;
+width:250px;
+
+
+
+}
+#link2{
+ 
+  background-color:rgba(255, 10, 10, 0.838);
+  height:40px;
+  width:250px;
+}
+#link3{
+  color:#ffffff;
+  background-color:rgba(0, 255, 38, 0.943);
+  height:40px;
+  width:250px;
+}
+#link4{
+  color:#ffffff;
+  background-color:rgb(42, 16, 193);
+  height:40px;
+  width:250px;
+}
+#link5{
+  color:#ffffff;
+  background-color:rgb(218, 0, 0);
+  height:40px;
+  width:250px;
+}
+#link6{
+  color:#ffffff;
+  background-color:rgba(6, 0, 114, 0.84);
+  height:40px;
+  width:250px;
+
+  
+}
+.links{
+  display:flex;
+  justify-content:space-evenly;
+  text-align:center;
+  border-top:1px solid black;
+  border-bottom:1px solid black; 
+  font-weight:bold;
+  margin-top:10px;
+
+}
+#link1:hover{
+  background-color:rgba(255, 23, 220, 0.872);
+}
+#link2:hover{
+  background-color:rgb(6, 144, 151);
+}
+
+#link3:hover{
+  background-color:rgba(255, 103, 9, 0.902);
+}
+
+#link4:hover{
+  background-color:rgba(12, 70, 245, 0.694);
+}
+
+#link5:hover{
+  background-color:rgb(1, 3, 0);
+}
+
+#link6:hover{
+  background-color:rgb(37, 160, 0);
+}
+a:hover{
+  color:rgb(237, 237, 0);
+  
+}
+#report{
+  text-transform:uppercase;
+  background-color:rgb(9, 5, 103);
+  color:#ffffff;
+  height:25px;
+  font-family: Arial;
+  width:200px;
+  text-align:center;
+  padding:2px;
+}
+.about{
+  padding-left:40px;
+
+}
+
+.features{
+padding-left:40px;
+
+
+}
+#action{
+
+  display:flex;
+  justify-content:space-between;
+  margin-top:10px;
+}
+
+button{
+  color:#ffffff;
+  background-color:rgb(30, 78, 221);
+  font-size:30px;
+  text-transform:uppercase;
+  font-weight:bold;
+  border:5px solid black;
+  padding:5px;
+  margin-top:20px;
+  margin-left:100px;
+  height:50px;
+  width:500px;
+
+
+  
+}
+  
+button:hover{
+  background-color:rgb(255, 12, 12) ;
+}
+#education{
+  background-color:rgb(255, 144, 18);
+  font-family:'Times New Roman', Times, serif;
+  margin-top:30px;
+  
+ 
+}
+#education:hover{
+  background-color: black;
+
+}
+
+.director{
+  background-color:gainsboro;
+  height:250px;
+  border:2px solid black;
+  margin-top:45px;
+ 
+}
+#logo{
+  
+
+  width:100px;
+  height:100px;
+  margin-top:23px;
+}
+
+#sir{
+  border-radius:50%;
+  border:4px;
+ 
+}
+
+#name{
+text-align:center;
+padding-top:35px;
+font-size:25px;
+font-family:serif;
+font-weight:bold;
+}
+
+
+
+#created{
+font-family:Arial;
+background-color:rgba(255, 0, 0, 0.674);
+color:white;
+border-top:2px solid black;
+border-bottom:2px solid black;
+display:block;
+height:500px;
+
+
+}
+#creater{
+  border:2px solid black;
+  height:300px;
+}
+/* footer part */
+footer{
+background-color:gainsboro;
+height:600px;
+border-top:2px solid black;
+border-bottom:2px solid black;
+
+
+}
+#aman{
+  border-radius:50%;
+}
+.location{
+ margin-left:900px;
+ margin-top:-45px;
+}
+.map{
+  margin-top:-150px;
+}
+#information{
+  margin-left:50px;
+  margin-top:100px;
+}
+#last{
+  font-weight:500;
+  color:#ffffff;
+  background-color: rgba(79, 9, 241, 0.995);
+  margin-top:45px;
+  border-top:2px solid black;
+}
+video{
+  border:2px solid black;
+}
+
+/* Media Queries for Redmi 9 */
+@media (max-width: 400px) {
+/* Adjust elements for smaller screens */
+#thirdheader {
+  margin-left: 10px;
+}
+
+#div1 {
+  margin-left: 10px;
+}
+
+#secondheader {
+  margin-left: 10px;
+}
+
+.links {
+  flex-direction: column;
+ 
+  
+}
+
+.location {
+  margin-left: 10px;
+}
+
+.map {
+  margin-top: 10px;
+}
+
+#information {
+  margin-left: 10px;
+}
+
+#last {
+  margin-left: 10px;
+}
+
+video{
+  width:300px;
+  height:250px;
+}
+button{
+  width:250px;
+  height:150px;
+  margin-left:50px;
+}
+#max{
+  height:200px;
+  width:400px;
+}
+#creater{
+  padding-top:-20px;
+}
+#image1{
+  width:400px;
+  
+}
+#image2{
+  width:350px;
+  height:150px;
+}
+footer{
+  margin-top:200px;
+}
+#created{
+height:600px;
+margin-top:100px;
+}
+}
